@@ -24,17 +24,17 @@ angular.module('starter', ['ionic', 'starter.controllers','timer','LocalStorageM
   });
 })
 .constant('topicMap', {
-    1 : 'data/route53.js',
-    2 : 'data/rds.js',
-    3 : 'data/iam.js',
-    4 : 'data/ec2.js',
-    5 : 'data/s3.js',
-    6 : 'data/vpc.js',
-    7 : 'data/beanstalk.js',
-    8 : 'data/sqs.js',
-    9 : 'data/sns.js',
-    10 : 'data/swf.js',
-    11 : 'data/dynamoDb.js',
+    1 : 'data/urinary.js',  //  done started with 1-10 ***
+    2 : 'data/biochemistry.js',  //answers not provided
+    3 : 'data/diabetes.js',  //  done started with 1-10 ***
+    4 : 'data/neuroanatomy.js', //  started with 11-20
+    5 : 'data/circulation.js', //  done started with 11-20
+    6 : 'data/pathology.js', //  done started with 11-20
+    7 : 'data/syndromes.js', //  done started with 11-20
+    8 : 'data/respiration.js', //  done started with 11-20
+    9 : 'data/pharmacology1.js', //  done started with 1-10 ***
+    10 : 'data/pharmacology2.js', //  done started with 11-20
+    11 : 'data/physiology.js', //  done started with 11-20
     12 : 'data/cf.js',
     100 : 'data/practice1.js',
     200 : 'data/practice2.js',

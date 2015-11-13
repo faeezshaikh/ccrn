@@ -10,7 +10,7 @@
     </div>
 
     <div class="center " ng-if="showTimer">
-        <button class="button button-outline button-balanced center">
+        <button class="button button-outline button-positive center">
 
             <i class="ion-android-alarm-clock larger "></i> &nbsp;
             <timer countdown="timer" max-time-unit="'minute'" interval="1000" finish-callback="timerElapsed()">{{mminutes}} minute{{minutesS}}, {{sseconds}} second{{secondsS}}</timer>
@@ -43,10 +43,10 @@
 
             <div class="item item-divider center">
                 <div>
-                    <!-- <button class="button button-balanced" ng-show="config.allowBack" ng-click="goTo(1);">First</button> -->
-                    <button class="button button-balanced" ng-show="config.allowBack && currentPage!=1" ng-click="goTo(currentPage - 1);">Prev</button>
-                    <button class="button button-balanced" ng-hide="currentPage == totalItems" ng-click="goTo(currentPage + 1);">Next</button>
-                    <!-- <button class="button button-balanced" ng-show="config.allowBack" ng-click="goTo(totalItems);">Last</button> -->
+                    <!-- <button class="button button-positive" ng-show="config.allowBack" ng-click="goTo(1);">First</button> -->
+                    <button class="button button-positive" ng-show="config.allowBack && currentPage!=1" ng-click="goTo(currentPage - 1);">Prev</button>
+                    <button class="button button-positive" ng-hide="currentPage == totalItems" ng-click="goTo(currentPage + 1);">Next</button>
+                    <!-- <button class="button button-positive" ng-show="config.allowBack" ng-click="goTo(totalItems);">Last</button> -->
                 </div>
                 <br />
                 <pagination ng-show="config.showPager" direction-links="false" total-items="totalItems" items-per-page="itemsPerPage" ng-model="currentPage" ng-change="pageChanged()"></pagination>
@@ -111,7 +111,7 @@
     <!-- <img class="full-image" height="150" width="100" ng-src="data/img/table.jpg"> -->
     <p class="center">
         
-          <button class="button button-balanced" ng-click="closeResults()">Close</button>
+          <button class="button button-positive" ng-click="closeResults()">Close</button>
     </p>
     
   </div>
@@ -134,12 +134,12 @@
             </div>
             </h4>
             <p></p>
-            <button class="button  {{ isCorrect(question) == 'Correct'? 'button-balanced': 'button-assertive'}}">{{isCorrect(question)}} answer.</button>
+            <button class="button  {{ isCorrect(question) == 'Correct'? 'button-positive': 'button-assertive'}}">{{isCorrect(question)}} answer.</button>
 
         </div>
     </div>
     <div class="center">
-        <button class="button button-balanced" ng-click="closeResults()">Close</button>
+        <button class="button button-positive" ng-click="closeResults()">Close</button>
     </div>
     
 
@@ -147,8 +147,8 @@
 
 <hr />
 <div class="center" ng-show="mode.value!='result'">
-    <!-- <button class="button button-balanced" ng-click="mode.value = 'quiz'">Quiz</button> -->
-    <button class="button button-balanced" ng-hide="mode.value=='review'" ng-click="mode.value = 'review'">Review</button>
-    <button class="button button-balanced" ng-click="onSubmit();">Submit Quiz</button>
+    <!-- <button class="button button-positive" ng-click="mode.value = 'quiz'">Quiz</button> -->
+    <button class="button button-positive" ng-hide="mode.value=='review'" ng-click="mode.value = 'review'">Review</button>
+    <button class="button button-positive" ng-click="onSubmit();">Submit Quiz</button>
 </div>
 </ion-content> </ion-view>
