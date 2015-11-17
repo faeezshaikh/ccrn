@@ -25,7 +25,7 @@ angular.module('starter', ['ionic', 'starter.controllers','timer','LocalStorageM
 })
 .constant('topicMap', {
     1 : 'data/urinary.js',  //  done started with 1-10 ***
-    2 : 'data/biochemistry.js',  //answers not provided
+    2 : 'data/biochemistry.js',  //answers not provided ==============
     3 : 'data/diabetes.js',  //  done started with 1-10 ***
     4 : 'data/neuroanatomy.js', //  started with 11-20
     5 : 'data/circulation.js', //  done started with 11-20
@@ -40,9 +40,9 @@ angular.module('starter', ['ionic', 'starter.controllers','timer','LocalStorageM
     14 : 'data/gastro.js', //  done started with 11-20
     15 : 'data/integumentary.js', //  done started with 11-20
     16 : 'data/behavior.js',  //  done started with 11-20
-    17 : 'data/adult.js',
-    18 : 'data/pediatric.js',
-    19 : 'data/neonatal.js',
+    17 : 'data/adult.js',	// all 5 from website. 5 from sample, 3 remaining from sample
+    18 : 'data/pediatric.js', // all 5 from website. frist 5 from sample, 3 remaining from sample
+    19 : 'data/neonatal.js',  // all 5 from website. frist 5 from sample, 3 remaining from sample
     
     100 : 'data/practice1.js',
     200 : 'data/practice2.js',
