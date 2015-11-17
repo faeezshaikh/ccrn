@@ -68,6 +68,13 @@ angular.module('starter')
                 { title: 'Certification', id: 300 ,url:'data/img/certified.png'}
                
               ];
+    
+    var patientPopulation = [
+                     { title: 'Adult CCRN', id: 17 ,url:'data/img/adult.png'},
+                     { title: 'Pediatric CCRN', id: 18 ,url:'data/img/pediatric.png'},
+                     { title: 'Neonatal CCRN', id: 19 ,url:'data/img/neonatal.png'}
+                    
+                   ];
 
  var timerSetting;
 
@@ -118,17 +125,24 @@ angular.module('starter')
 
                          }
  }
+ 
+ 
+ function foo(scoreList,topic){
+
+     scoreList.forEach(function(scoreRecord, i) {
+         if(topic.id == scoreRecord.topicId) {
+             topic.bestScore = scoreRecord.bestScore;
+             topic.bestScore+='%';
+         }
+     });
+  
+ }
   return {
             getTopics: function () {
                   var scoreList =   localStorageService.get('scoreRecord');
                   if(scoreList) {
                      topics.forEach(function(topic,index) {
-                        scoreList.forEach(function(scoreRecord, i) {
-                            if(topic.id == scoreRecord.topicId) {
-                                topic.bestScore = scoreRecord.bestScore;
-                                topic.bestScore+='%';
-                            }
-                        });
+                    	 foo(scoreList,topic);
                      });
                   }
                  
@@ -138,13 +152,8 @@ angular.module('starter')
             getMockExams: function () {
                   var scoreList =   localStorageService.get('scoreRecord');
                   if(scoreList) {
-                     mockExams.forEach(function(mockExam,index) {
-                        scoreList.forEach(function(scoreRecord, i) {
-                            if(mockExam.id == scoreRecord.topicId) {
-                                mockExam.bestScore = scoreRecord.bestScore;
-                                mockExam.bestScore+='%';
-                            }
-                        });
+                     mockExams.forEach(function(topic,index) {
+                    	 foo(scoreList,topic);
                      });
                   }
                  
@@ -152,6 +161,15 @@ angular.module('starter')
                
             },
 
+            getPatientPopulation: function() {
+                var scoreList =   localStorageService.get('scoreRecord');
+                if(scoreList) {
+                	patientPopulation.forEach(function(topic,index) {
+                  	 foo(scoreList,topic);
+                   });
+                }
+            return patientPopulation;
+            },
        
                updateScoreForTopics : function(topicId,score) {
                     

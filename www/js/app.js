@@ -35,7 +35,15 @@ angular.module('starter', ['ionic', 'starter.controllers','timer','LocalStorageM
     9 : 'data/pharmacology1.js', //  done started with 1-10 ***
     10 : 'data/pharmacology2.js', //  done started with 11-20
     11 : 'data/physiology.js', //  done started with 11-20
-    12 : 'data/cf.js',
+    12 : 'data/nervoussystem.js', //  done started with 11-20
+    13 : 'data/lymphaticsystem.js', //  done started with 11-20
+    14 : 'data/gastro.js', //  done started with 11-20
+    15 : 'data/integumentary.js', //  done started with 11-20
+    16 : 'data/behavior.js',  //  done started with 11-20
+    17 : 'data/adult.js',
+    18 : 'data/pediatric.js',
+    19 : 'data/neonatal.js',
+    
     100 : 'data/practice1.js',
     200 : 'data/practice2.js',
     300 : 'data/exam.js'

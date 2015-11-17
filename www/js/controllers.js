@@ -97,6 +97,7 @@ angular.module('starter.controllers', [ 'socialShareModule' ])
 
 	$scope.topics = awsService.getTopics();
 	$scope.mockExams = awsService.getMockExams();
+	$scope.patientPopulation = awsService.getPatientPopulation();
 
 	$ionicModal.fromTemplateUrl('templates/timeup.html', {
 		scope : $scope
