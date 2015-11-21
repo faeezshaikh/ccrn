@@ -26,33 +26,33 @@ angular.module('starter.controllers', [ 'socialShareModule' ])
 	$scope.loadQuiz = function(examTopic) {
 
 		$scope.questions = [];
-		$scope.timer = 900;
+		$scope.timer = 720;
 		$scope.wrong = 0;
 		$scope.score = 0;
 
 		file = topicMap[examTopic];
 
-		if (examTopic == 100 || examTopic == 200 || examTopic == 300) {
+		if (examTopic == 100 || examTopic == 200) {
 			// If its one of the mock exams
 			practiceExam = true;
 
 			if ($scope.showTimer) {
-				$scope.timer = 2400;
+				$scope.timer = 1440; // 24 minutes for 20 questions
 			}
 
 			// Show a warning modal first
 			if (warned) {
 				// If warned, show the timer and set appropriate time.
-				$scope.timer = 2400;
+				$scope.timer = 1440; // 24 minutes for 20 questions
 				$scope.showTimer = true;
 
-				if (examTopic == 300) {
-					$scope.timer = 4800;
+				if (examTopic == 200) {
+					$scope.timer = 10800; // seconds. divide by 60 to get minutes..duh! final exam is 3 hrs
 				}
 
 			} else {
 				// Show the modal if not warned.
-				if (examTopic == 300) {
+				if (examTopic == 200) {
 					$scope.bigExam = 'big'; // the Warning modal differs for practice exam vs certification exam in title
 				}
 

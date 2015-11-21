@@ -1,614 +1,1263 @@
 {
     "quiz": {
-        "Id": 15,
+        "Id": 200,
         "name": "Certification Exam",
         "logo" : "data/img/certified.png"
     },
     "questions": [{
         "Id": 1,
-        "Name": "You can select a specific Availability Zone in which to place your DynamoDB Table", 
+        "Name": "When glucose if found in urine it is called _____.", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "True", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "False", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Glucosuria", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Uremia", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Ureteritis", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Glucose intolerance", "IsAnswer": false }]
 
     },
     {
         "Id": 2,
-        "Name": "Amazon SWF is useful for automating workflows that include long-running human tasks (e.g. approvals, reviews, investigations, etc.) Amazon SWF reliably tracks the status of processing steps that run up to several days or months.", 
+        "Name": "Which of the following is not considered a component of kidney stones?", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "True", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "False", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Calcium phosphate", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Uric Acid", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Calcium oxalate", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "HCO3", "IsAnswer": true }]
         
     },
    {
         "Id": 3,
-        "Name": "In order to enable encryption at rest using EC2 and Elastic Block Store you need to", 
+        "Name": "The one of the functions occurring at the distal convoluted tubule in the kidney is?", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Mount the EBS volume in to S3 and then encrypt the bucket using a bucket policy.", "IsAnswer": false},
-            { "Id": 1056, "QuestionId": 1010, "Name": "Configure encryption using X.509 certificates", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Configure encryption using the appropriate Operating Systems file system", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Configure encryption when creating the EBS volume", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Passive secretion of hydrogen ions", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Passive secretion of potassium ions", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Limited re-absorption of water", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "No re-absorption of sodium", "IsAnswer": false }]
     },
      {
         "Id": 4,
-        "Name": "Ephemeral storage is temporary block level storage that only lives during the life of an instance", 
+        "Name": "ADH has which of the following effects on the distal convoluted tubule?", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "True", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "False", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Decrease water re-absorption", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Increase water re-absorption", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Decrease the concentration of urine", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Increase the urine volume", "IsAnswer": false }]
     },
      {
         "Id": 5,
-        "Name": "A decider (with regard to SWF) is:", 
+        "Name": "Which of the following is not associated with the role of the kidneys?", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "The decider is a systems administrator who must decided on how an SWF is designed.", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "The decider is a person in the Amazon warehouse who must decide on what products to deliver.", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "The decider is a program that controls the coordination of tasks, i.e. their ordering, concurrency, and scheduling according to the application logic.", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "The decider is an EC2 instance which monitors SWF and decides whether to delete a message in SWF or not.", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Release of erythropoietin (hormone)", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Release of renin (enzyme)", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Release of Vitamin E", "IsAnswer": true },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Activate Vitamin D", "IsAnswer": false }]
 
     },
     {
         "Id": 6,
-        "Name": "Which service allows you to send a physical data device to Amazon in order to transfer data to the AWS cloud?", 
+        "Name": "Each kidney contains approximately ______ nephrons", 
 
         "Options": [
-             { "Id": 1055, "QuestionId": 1010, "Name": "Amazon Transfer Service", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Amazon Import/Export", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Amazon Upload API", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Amazon Fulfilment Service", "IsAnswer": false }]
+             { "Id": 1055, "QuestionId": 1010, "Name": "10 million", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "1 million", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "100,000", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "10,000", "IsAnswer": false }]
     },
     {
         "Id": 7,
-        "Name": "Elastic Beanstalk automatically provisions and configures deployment environments for developers.", 
+        "Name": "The release of Angiotension II causes which of the following to occur?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "False", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "True", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Increased filtration rate ", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Decreased glomerular hydrostatic pressure", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Increase synthesis of Vitamin E ", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Increased release of erythropoietin", "IsAnswer": false }]
 
     },
      {
         "Id": 8,
-       "Name": "Port scanning is only allowed if a request is submitted to Amazon and Amazon grants permissions to the account owner.", 
+       "Name": "Which of the following is an effect of a diuretic?", 
         "Options": [
-             { "Id": 1055, "QuestionId": 1010, "Name": "False", "IsAnswer": false },
-             { "Id": 1056, "QuestionId": 1010, "Name": "True", "IsAnswer": true }]
+             { "Id": 1055, "QuestionId": 1010, "Name": "Decreased Cardiac Output", "IsAnswer": true },
+             { "Id": 1056, "QuestionId": 1010, "Name": "Increased fluid volume", "IsAnswer": false },
+             { "Id": 1057, "QuestionId": 1010, "Name": "Increased sodium re-absorption ", "IsAnswer": false },
+             { "Id": 1058, "QuestionId": 1010, "Name": "Increased chloride ion re-absorption", "IsAnswer": false }]
 
     },
     {
         "Id": 9,
-        "Name": "What is the HTTP code you would see if once you successfully place a file in an S3 bucket?", 
+        "Name": "Which of the following is not considered a loop diuretic?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "3xx", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "200", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "5xx", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "4xx", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Bumetadine (BUMEX)", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Furosemide (LASIX)", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Chlorthiazide (DIURIL)", "IsAnswer": true },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Ethacrynic Acid (EDECRIN)", "IsAnswer": false }]
         
     },
      {
         "Id": 10,
-        "Name": "You have 2 CloudFormation templates. One is for spinning up an architecture stack for enterprise apps and the other for gaming apps. Which of the following describes best when it comes to cost.", 
+        "Name": "Hyperinsulinemia may be caused by all of the following except:", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "The template for spinning up enterprise architecture will cost more since enterprise apps typically demand a large & complex framework.", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "The template for spinning up gaming architecture will cost more since gaming apps require intensive CPU cycles.", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "The cost of both the templates will be the same.", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "CloudFormation is free but you are only charged for the underlying resources it builds.", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "An insulinoma", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Nesidioblastosis", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Insulin resistance", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Type 1 diabetes", "IsAnswer": true }]
         
     },
      {
         "Id": 11,
-        "Name": "EBS volumes snapshots are backed by S3 storage type:", 
+        "Name": "Which statement about diabetes is false?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "True", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "False", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "The U.S. prevalence of diabetes is decreasing", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Diabetes is the seventh leading cause of death in the United States", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Diabetes is the leading cause of blindness among persons age 20 to 74", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Diabetes is the leading cause of kidney failure", "IsAnswer": false }]
         
     },
      {
         "Id": 12,
-        "Name": "The maximum size of a General Purpose or SSD EBS  storage device is:", 
+        "Name": "The lifetime risk of developing diabetes for a male born in 2000 is:", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "100 GB", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "1 TB", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "500 GB", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "10 TB", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "1 in 5", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "1 in 3", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "2 in 5", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "1 in 2", "IsAnswer": false }]
         
     },
      {
         "Id": 13,
-        "Name": "What happens to the an instance's Ephemeral storage when the instance is stopped.", 
+        "Name": "Which of the following measures does not help to prevent diabetes complications?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Data persists on the storage", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Data is backed to S3", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "All data is lost.", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Controlling blood glucose", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Controlling blood pressure and blood lipids", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Eliminating all carbohydrates from the diet", "IsAnswer": true },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Prompt detection of diabetic eye and kidney disease", "IsAnswer": false }]
         
     },
      {
         "Id": 14,
-        "Name": "What feature would you utilize to categorize your EC2 instances by application/groups/or purpose? ", 
+        "Name": "Proliferative retinopathy is often treated using:", 
         "Options": [
-           { "Id": 1055, "QuestionId": 1010, "Name": "Tags", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Labels", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Folders", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Categories", "IsAnswer": false }]
+           { "Id": 1055, "QuestionId": 1010, "Name": "Tonometry", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Fluorescein angiogram", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Antibiotics", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Laser surgery", "IsAnswer": true }]
         
     },
      {
         "Id": 15,
-       "Name": "What is the default region in AWS?",  
+       "Name": "Which of the following diabetes drugs acts by decreasing the amount of glucose produced by the liver?",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "us-west-2", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "us-east-1", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "us-northeast-1", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "us-southwest-1", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Sulfonylureas", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Meglitinides", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Biguanides", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Alpha-glucosidase inhibitors", "IsAnswer": false }]
         
     },
      {
         "Id": 16,
-       "Name": "Which command would you use to create a snapshot using the AWS CLI?",  
+       "Name": "The benefits of using an insulin pump include all of the following except:",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "create-snapshot", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "ec2-snapshot", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "ec2-create-snapshot", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "ec2 create ss", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "By continuously providing insulin they eliminate the need for injections of insulin", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "They simplify management of blood sugar and often improve A1C", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "They enable exercise without compensatory carbohydrate consumption", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "They help with weight loss", "IsAnswer": true }]
         
     },
      {
         "Id": 17,
-       "Name": "RDS snapshots are automatically stored in",  
+       "Name": "Which of the following regimens offers the best blood glucose control for persons with type 1 diabetes?",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "DynamoDB", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "MongoDB", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "S3", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "RDBMS", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "A single anti-diabetes drugs", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Once daily insulin injections", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "A combination of oral anti-diabetic medications", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Three or four injections per day of different types of insulin.", "IsAnswer": true }]
         
     },
      {
         "Id": 18,
-       "Name": "The base URI for all instance metadata requests is:",  
+       "Name": "Diabetic neuropathies are diagnosed using all of the following except:",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "http://169.254.169.254/latest/meta-data", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "http://169.254.169.254/latest/user-data", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "http://169.254.169.254/meta-data", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "http://169.254.169.254/user-data", "IsAnswer": false }]
-        
+             { "Id": 1055, "QuestionId": 1010, "Name": "Nerve conduction studies or electromyography", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Ultrasound", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Foot examinations", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Minnesota Mutiphasic Personality inventory (MMPI)", "IsAnswer": true }]
     },
      {
         "Id": 19,
-       "Name": "The URL for getting user-data in EC2 is:",  
+      "Name": "Which of the following cranial nerves is not directly related to the eye?",   
         "Options": [
-             { "Id": 1055, "QuestionId": 1010, "Name": "http://169.254.169.254/latest/meta-data", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "http://169.254.169.254/latest/user-data", "IsAnswer": true},
-            { "Id": 1057, "QuestionId": 1010, "Name": "http://169.254.169.254/meta-data", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "http://169.254.169.254/user-data", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "II", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "III", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "VI", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "VII", "IsAnswer": true}]
+        
     },
      {
         "Id": 20,
-      "Name": "A __________ can be used to create server resources of different instance types. You can think of it as a virtual machine image/template.",   
+       "Name": "Which of the following cranial nerves can cause movement of trapezius muscle?",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Stack", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Template", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "AMI", "IsAnswer": true},
-            { "Id": 1058, "QuestionId": 1010, "Name": "EC2 bootstrap script", "IsAnswer": false}]
+            { "Id": 1055, "QuestionId": 1010, "Name": "IV", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "VII", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "X", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "XI", "IsAnswer": true}]
         
     },
      {
         "Id": 21,
-       "Name": "You need this to customize your AMI and install custom software components on startup of your EC2 instances.",  
+       "Name": "Which of the following cranial nerves causes sensation to anterior 2/3 of the tongue?",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "A Python script", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "A Javascript program", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Run a bootstrap script as soon as the instance is launched.", "IsAnswer": true},
-            { "Id": 1058, "QuestionId": 1010, "Name": "A Java program", "IsAnswer": false}]
+                    { "Id": 1055, "QuestionId": 1010, "Name": "IV", "IsAnswer": false },
+                    { "Id": 1056, "QuestionId": 1010, "Name": "VII", "IsAnswer": true },
+                    { "Id": 1057, "QuestionId": 1010, "Name": "X", "IsAnswer": false},
+                    { "Id": 1058, "QuestionId": 1010, "Name": "XI", "IsAnswer": false}]
         
     },
      {
         "Id": 22,
-       "Name": "Currently there are ______ regions in AWS.",  
+       "Name": "Which of the following cranial nerves can be directly linked to respiratory and cardiac dysfunction?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "20", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "11", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "40", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "30", "IsAnswer": false}]
+                    { "Id": 1055, "QuestionId": 1010, "Name": "IV", "IsAnswer": false },
+                    { "Id": 1056, "QuestionId": 1010, "Name": "VII", "IsAnswer": false },
+                    { "Id": 1057, "QuestionId": 1010, "Name": "X", "IsAnswer": true},
+                    { "Id": 1058, "QuestionId": 1010, "Name": "XI", "IsAnswer": false}]
         
     },
      {
         "Id": 23,
-       "Name": "There are __________ edge locations:", 
+       "Name": "Which of the following cranial nerves can be directly linked to ptosis?",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "45", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "35", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "52", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "III", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "IV", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "V", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "VI", "IsAnswer": false }]
         
     },
      {
         "Id": 24,
-       "Name": "Which of the following languages does not have an officially supported AWS SDK?",  
+       "Name": "Which of the following cranial nerves can be directly linked to diplopia?",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "C", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Ruby", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "C#", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Objective C (iOS)", "IsAnswer": false }]
-        
+                    { "Id": 1055, "QuestionId": 1010, "Name": "III", "IsAnswer": false },
+                    { "Id": 1056, "QuestionId": 1010, "Name": "IV", "IsAnswer": true },
+                    { "Id": 1057, "QuestionId": 1010, "Name": "V", "IsAnswer": false },
+                    { "Id": 1058, "QuestionId": 1010, "Name": "VI", "IsAnswer": false }]
     },
      {
         "Id": 25,
-       "Name": "Which of the following cannot be used to deploy systems to AWS?",  
+       "Name": "Which of the following is another name for cranial nerve IX?",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Elastic Beanstalk", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "CloudFormation", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "OpsWorks", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Kinesis", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Trochlear", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Vestibulocochlear", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Hypoglossal", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Glosspharyngeal", "IsAnswer": true }]
         
     },
      {
         "Id": 26,
-       "Name": "Which of the following can be used to host a static website?",  
+       "Name": "Athetosis type movements are often identified with a _______ lesion.", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "SNS", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "SQS", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "S3", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "SWF", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Midbrain", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Basal ganglia", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Subthalamic", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Thalamus", "IsAnswer": false }]
         
     },
      {
         "Id": 27,
-       "Name": "User, Group, Role are associated with which of the following services?", 
+     "Name": "Changes in personality and judgment are often associated with a _____lesion.",    
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "SNS", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "EC2", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "S3", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "IAM", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Frontal lobe", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Parietal lobe", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Broca's area", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Wernicke's area", "IsAnswer": false }]
         
     },
-     {
+     { 
         "Id": 28,
-     "Name": "You need a service that records AWS API calls for your account and delivers log files to you. Which would you use?",    
+      "Name": "Prothrombin is a ____ globulin and is produced by the _____.",   
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "CloudWatch", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "CloudFormation", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "AppStream", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "CloudTrail", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Alpha, Kidney", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Alpha, Liver", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Beta, Kidney", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Beta, Liver", "IsAnswer": false }]
         
     },
      {
         "Id": 29,
-      "Name": "What command would you use from CLI to attach an EBS volume to a EC2 instance?",   
+      "Name": "The right coronary artery divides to form the posterior interventricular artery and the ___ artery.",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "attach-volume", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "ec2-mount-volume ", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "ec2-attach-volume", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "ec2-connect-volume ", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Marginal", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "LVC", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "RVC", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "LAD", "IsAnswer": false }]
         
     },
-     {
-        "Id": 30,
-      "Name": "Which of the following is not associated with SWF?",  
+    {
+      "Id": 30,
+      "Name": "Blood flowing into the cardiac veins enters the _______ next.",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Worker", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Initiator", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Decider", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Activity", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Coronary Sinus", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Left Ventricle", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Right Ventricle", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Left Atrium", "IsAnswer": false }]
         
     },
     {
       "Id": 31,
-      "Name": "You are not able to RDP to a Windows Server 2010 EC2 instance from your corporate desktop. Which of the following is not a valid reason for this?",  
+      "Name": "If you are using a stethoscope and trying to detect the tricuspid valve which of the following would be the best location?",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "The IP of your desktop is being blocked by your corporate proxy server", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "The EC2 instance does not have a route to an Internet Gateway.", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "The EC2 instance's security group does not support ingress to port 3389.", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "The EC2 instance's security group does not support ingress to port 22", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Within 2 inches of the xyphoid process", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "On the right side of the sternum", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "On the left side of the sternum near the midpoint", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "On the left side of the sternum near the midpoint of the sixth rib", "IsAnswer": false }]
         
     },
     {
       "Id": 32,
-      "Name": "S3 supports which of the following object encryption?",  
+      "Name": "Which of the following occurs during ventricular systole?",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Server-Side Encryption with Amazon Managed Keys (SSE-S3, SSE-KMS)", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Server-Side Encryption with Customer-Provided Keys (SSE-C)", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Client-Side Encryption with WS KMS-managed customer master key", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Client-Side Encryption with client side master key", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "All of the above", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Increased aortic pressure", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Increased ventricular volume", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Dup heart sound", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "P wave", "IsAnswer": false }]
         
     },
     {
       "Id": 33,
-      "Name": "With regard to AWS RDS which of the following is true?",  
+      "Name": "Which of the following occurs during ventricular diastole?",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "MySQL, Postgres, and DB2 are supported", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "RDS can be deployed within a VPC", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "RDS features are identical across database types", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Aurora is no longer supported by Amazon", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Increased aortic pressure", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Increased ventricular volume", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Lub heart sound", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "T wave", "IsAnswer": false }]
         
     },
     {
       "Id": 34,
-      "Name": "What HTTP response code indicates a client side error when a REST call is made?",  
+      "Name": "The innermost layer of a blood vessel is lined with _______ ______ cells",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "2xx", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "3xx", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "4xx", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "500", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Simple squamous", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Stratified squamous", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Simple cuboidal epithelium", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Stratified cuboidal epithelium", "IsAnswer": false }]
         
     },
     {
       "Id": 35,
-      "Name": "What is not a valid section in a CloudFormation template?",  
+      "Name": "Angiotension can directly cause the release of ____ from the adrenal cortex.",  
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Parameters", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Resources", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Declarations", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Outputs", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Renin", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Aldosterone", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Calcitonin", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Thyroxine", "IsAnswer": false }]
         
     },
     {
-      "Id": 36,
-      "Name": "In the shared-responsibility model, what is Amazon's responsibility?",  
-        "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Managing security groups", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Managing customer's key pairs for EC2 instances.", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Physical security of data centers.", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "IAM roles", "IsAnswer": false }]
-        
-    },
-    {
-        "Id": 37,
-        "Name": " You have an application that requires to read 5 items of 10 KB each per second. How many units of read capacity should you set if you desire strongly consistent reads?", 
+        "Id": 36,
+        "Name": "Cardiac output is the product of ____ and ____.", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "13 capacity units ", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "8 capacity units  ", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "10 capacity units", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "15 capacity units ", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "HR and Disastolic pressure", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "HR and Stroke Volume", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "HR and EF", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Diastolic and Systolic pressure", "IsAnswer": false }]
+
+    },
+     {
+        "Id": 37,
+        "Name": "Which of the following is not associated with Wilson's disease?", 
+
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Asterixis", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Basal ganglia", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Cirrhois ", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Pancreatitis", "IsAnswer": true }]
 
     },
      {
         "Id": 38,
-        "Name": " In DynamoDB each table can have ________ local indexes and _______ global indexes:", 
+        "Name": "Which of the following is not associated with Reye's syndrome?", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "5, 10 ", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "5, 5 ", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "10, 5", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "10, 10 ", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Coma ", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Hyperglycemia", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Influenza B ", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Fatty liver tissue", "IsAnswer": false }]
 
     },
      {
         "Id": 39,
-        "Name": " Both the Hash and Hash & Range attributes of the primary key in DynamoDB are _______ long.", 
+        "Name": "Emphysema is not linked to which of the following terms?", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "256 KB ", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "64 KB  ", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "10 bytes", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "1 KB ", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Blue Bloater", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Dyspnea", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Liver cirrhosis", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Tachycardia", "IsAnswer": false }]
 
     },
-     {
+    {
         "Id": 40,
-        "Name": "To have reliable snapshots what storage engine must MySQL tables be configured with:", 
+        "Name": "Guillian-Barre' is not linked to which of the following statements?", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "DynamoDB", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "MongoDB", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "InnoDB", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "CouchDB ", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Infections often present.", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Greater initial upper extremity deficits ", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Increased CSF protein levels ", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Hypertension", "IsAnswer": false }]
 
     },
     {
         "Id": 41,
-        "Name": "Does S3 provide read-after-write consistency?", 
-
-        "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "No, not for any region", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Yes, but only for certain regions", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Yes, but only for certain regions (excluding us-east) and for new objects", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Yes, for all regions", "IsAnswer": false }]
-
-    },
-    {
-        "Id": 42,
-       "Name": "What is the maximum size of a single S3 object?", 
+       "Name": "Pancoast's tumor is not linked to which of the following statements?", 
         
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "No such limit", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "5 TB", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "5 GB", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "100 GB", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Horner's syndrome ", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Anhidrosis ", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Cervical plexus involvement ", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Arthritis", "IsAnswer": true }]
         
     },
    {
-        "Id": 43,
-       "Name": "Is data stored in S3 is always encrypted?", 
+        "Id": 42,
+       "Name": "Wermer's syndrome is considered a?", 
 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Yes, S3 always encrypts data for security", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "No, there is no such feature", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Yes, but only when right APIs are called", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Yes, but only in Gov Cloud datacenters", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "MEN type I ", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "MEN type II ", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "MEN type III ", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "MEN type IV", "IsAnswer": false }]
+
+    },
+     {
+        "Id": 43,
+      "Name": "Which of the following is not a cause of acute pancreatitis?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Hyperlipidemia", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Ethanol ", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Steroids ", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Hypotension", "IsAnswer": true }]
 
     },
      {
         "Id": 44,
-      "Name": "What is true for S3 buckets (select multiple if more than one is true)?", 
+       "Name": "Which of the following is not directly related with Alzheimer's disease?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Bucket namespace is shared and is global among all AWS users.", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Bucket names can contain alpha numeric characters", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Bucket are associated with a region, and all data in a bucket resides in that region", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Buckets can be transferred from one account to another through API", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Senile plaques ", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Diabetes mellitus ", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Tangles ", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Dementia", "IsAnswer": false }]
 
     },
      {
         "Id": 45,
-       "Name": "EBS can always tolerate an Availability Zone failure?", 
+       "Name": "Which of the following is not directly related with Horner's syndrome?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "No, all EBS volume is stored in a single Availability Zone", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Yes, EBS volume has multiple copies so it should be fine", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Depends on how it is setup", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Depends on the Region where EBS volume is initiated", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Miosis ", "IsAnswer": false },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Malaise ", "IsAnswer": true },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Ptosis ", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Anhidrosis", "IsAnswer": false }]
 
-    },
+    }, 
      {
-        "Id": 46,
-       "Name": "Which of the following benefits does adding Multi-AZ deployment in RDS provide (choose multiple if more than one is true)?", 
+        "Id": 46, 
+       "Name": "Which of the following syndromes corresponds to: A failure of neutrophils to generate an immune response and lab values indicate elevated IgE levels?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "MultiAZ deployed database can tolerate an Availability Zone failure", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Decrease latencies if app servers accessing database are in multiple Availability zones", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Make database access times faster for all app servers", "IsAnswer": false },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Make database more available during maintenance tasks", "IsAnswer": true }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Job's syndrome", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Wiskott-Aldrich syndrome", "IsAnswer": false },
+            { "Id": 1057, "QuestionId": 1010, "Name": "Carcinoid syndrome", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Mallory-Weiss syndrome", "IsAnswer": false }]
 
     },
      {
         "Id": 47,
-       "Name": "Which of the following Auto scaling CANNOT do (select multiple if more than one is true)?", 
+       "Name": "Which of the following syndromes corresponds to: right sided valvular disease and diarrhea?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Start up EC2 instances when CPU utilization is above threshold", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Release EC2 instances when CPU utilization is below threshold", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "Increase the instance size when utilization is above threshold", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "Add more Relational Database Service (RDS) read replicas when utilization is above threshold", "IsAnswer": true }]
+                    { "Id": 1055, "QuestionId": 1010, "Name": "Job's syndrome", "IsAnswer": false },
+                    { "Id": 1056, "QuestionId": 1010, "Name": "Wiskott-Aldrich syndrome", "IsAnswer": false },
+                    { "Id": 1057, "QuestionId": 1010, "Name": "Carcinoid syndrome", "IsAnswer": true },
+                    { "Id": 1058, "QuestionId": 1010, "Name": "Mallory-Weiss syndrome", "IsAnswer": false }]
 
     },
      {
         "Id": 48,
-       "Name": "What happens to data when an EC2 instance terminates (select multiple if more than one is true)?", 
+       "Name": "Which of the following syndromes corresponds to: lab values indicate elevated IgA levels and presence of thrombocytopenia?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "For EBS backed AMI, the EBS volume with operation system on it is preserved", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "For EBS backed AMI, any volume attached other than the OS volume is preserved", "IsAnswer": true },
-            { "Id": 1057, "QuestionId": 1010, "Name": "All the snapshots of the EBS volume with operating system is preserved", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "For S3 backed AMI, all the data in the local (ephemeral) hard drive is deleted", "IsAnswer": true }]
-
+                    { "Id": 1055, "QuestionId": 1010, "Name": "Job's syndrome", "IsAnswer": false },
+                    { "Id": 1056, "QuestionId": 1010, "Name": "Wiskott-Aldrich syndrome", "IsAnswer": true },
+                    { "Id": 1057, "QuestionId": 1010, "Name": "Carcinoid syndrome", "IsAnswer": false },
+                    { "Id": 1058, "QuestionId": 1010, "Name": "Mallory-Weiss syndrome", "IsAnswer": false }]
     },
      {
         "Id": 49,
-       "Name": "For an EC2 instance launched in a private subnet in VPC, which of the following are the options for it to be able to connect to the internet (assume security groups have proper ports open)?", 
+       "Name": "Which of the following syndromes corresponds to: presence of arthritis and commonly found in males?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Simply attach an elastic IP", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "If there is also a public subnet in the same VPC, a ENI (Elastic Network Interface) can be attached to the instance with the ip address range of the public subnet", "IsAnswer": false },
-            { "Id": 1057, "QuestionId": 1010, "Name": "If there is a public subnet in the same VPC with a NAT instance attached to internet gateway, then a route can be configured from the instance to the NAT", "IsAnswer": true },
-            { "Id": 1058, "QuestionId": 1010, "Name": "There is no way for an instance in private subnet to talk to the internet", "IsAnswer": false }]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Reiter's syndrome", "IsAnswer": true },
+            { "Id": 1056, "QuestionId": 1010, "Name": "Sjogren's syndrome", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Kartagener's syndrome", "IsAnswer": false },
+            { "Id": 1058, "QuestionId": 1010, "Name": "Ehlers-Danlos syndrome", "IsAnswer": false }]
 
     },
      {
         "Id": 50,
-       "Name": "When an ELB is setup, what is the best way to route a website’s traffic to it?", 
+       "Name": "Which of the following syndromes corresponds to: immotile sperm and presence of reoccurring sinusitis?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Resolve the ELB name to an ip address  and point the website to that ip address", "IsAnswer": false },
-            { "Id": 1056, "QuestionId": 1010, "Name": "There is no direct way to do so, Route53 has to be used", "IsAnswer": false},
-            { "Id": 1057, "QuestionId": 1010, "Name": "Generate a CNAME record for the website pointing to the DNS name of the ELB", "IsAnswer": true }]
+                    { "Id": 1055, "QuestionId": 1010, "Name": "Reiter's syndrome", "IsAnswer": false },
+                    { "Id": 1056, "QuestionId": 1010, "Name": "Sjogren's syndrome", "IsAnswer": false},
+                    { "Id": 1057, "QuestionId": 1010, "Name": "Kartagener's syndrome", "IsAnswer": true },
+                    { "Id": 1058, "QuestionId": 1010, "Name": "Ehlers-Danlos syndrome", "IsAnswer": false }]
+
 
     },
      {
         "Id": 51,
-       "Name": "An instance is launched into the public subnet of a VPC. Which of the following must be done in order for it to be accessible from the Internet?", 
+       "Name": "Which of the following syndromes corresponds to: presence of arthritis, xerophthalmia and commonly found in females?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Attach an Elastic IP to the instance", "IsAnswer": true },
-            { "Id": 1056, "QuestionId": 1010, "Name": "Nothing. The instance is accessible from the Internet", "IsAnswer": false},
-            { "Id": 1057, "QuestionId": 1010, "Name": "Launch a NAT instance and route all traffic to it", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "Make an entry in the route table passing all traffic going outside the VPC to the NAT instance", "IsAnswer": false}]
-
+                    { "Id": 1055, "QuestionId": 1010, "Name": "Reiter's syndrome", "IsAnswer": false },
+                    { "Id": 1056, "QuestionId": 1010, "Name": "Sjogren's syndrome", "IsAnswer": true},
+                    { "Id": 1057, "QuestionId": 1010, "Name": "Kartagener's syndrome", "IsAnswer": true },
+                    { "Id": 1058, "QuestionId": 1010, "Name": "Ehlers-Danlos syndrome", "IsAnswer": false }]
     },
      {
         "Id": 52,
-       "Name": "In VPCs with private and public subnets, database servers should ideally be launched into:", 
+       "Name": "Which of the following syndromes corresponds to: excessive movement occurring at joints and loose skin?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "The public subnet", "IsAnswer": false},
-            { "Id": 1056, "QuestionId": 1010, "Name": "The private subnet", "IsAnswer": true},
-            { "Id": 1057, "QuestionId": 1010, "Name": "Either of them", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "Not recommended, they should ideally be launched outside VPC", "IsAnswer": false}]
+                    { "Id": 1055, "QuestionId": 1010, "Name": "Reiter's syndrome", "IsAnswer": false },
+                    { "Id": 1056, "QuestionId": 1010, "Name": "Sjogren's syndrome", "IsAnswer": false},
+                    { "Id": 1057, "QuestionId": 1010, "Name": "Kartagener's syndrome", "IsAnswer": false },
+                    { "Id": 1058, "QuestionId": 1010, "Name": "Ehlers-Danlos syndrome", "IsAnswer": true }]
 
     },
      {
-        "Id": 53,
-       "Name": "An instance is connected to an ENI (Elastic Network Interface) in one subnet. What happens when you attach an ENI of a different subnet to this instance?", 
+        "Id":53,
+       "Name": "Which of the following syndromes corresponds to: hematuria, glomerulonephritis and pulmonary dysfunction?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "The instance follows the rules of the older subnet", "IsAnswer": false},
-            { "Id": 1056, "QuestionId": 1010, "Name": "The instance follows the rules of both the subnets", "IsAnswer": true},
-            { "Id": 1057, "QuestionId": 1010, "Name": "The instance follows the rules of the newer subnet", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "Not possible cannot be connected to 2 ENIs", "IsAnswer": false}]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Brown-Sequard syndrome", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Thoracic outlet syndrome", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Angelman's syndrome", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "Goodpasture's syndrome", "IsAnswer": true}]
 
     },
      {
-        "Id":54,
-       "Name": "You want to use Route53 to direct your www sub-domain to an elastic load balancer fronting your web servers. What kind of record set should you create?", 
+        "Id": 54,
+       "Name": "Which of the following syndromes corresponds to: presence of ipsilateral motor loss and contralateral spinothalmic tract damage?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "A", "IsAnswer": false},
-            { "Id": 1056, "QuestionId": 1010, "Name": "AAAA", "IsAnswer": false},
-            { "Id": 1057, "QuestionId": 1010, "Name": "NS", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "CNAME", "IsAnswer": true}]
+                    { "Id": 1055, "QuestionId": 1010, "Name": "Brown-Sequard syndrome", "IsAnswer": true},
+                    { "Id": 1056, "QuestionId": 1010, "Name": "Thoracic outlet syndrome", "IsAnswer": false},
+                    { "Id": 1057, "QuestionId": 1010, "Name": "Angelman's syndrome", "IsAnswer": false},
+                    { "Id": 1058, "QuestionId": 1010, "Name": "Goodpasture's syndrome", "IsAnswer": false}]
 
     },
      {
-        "Id": 55,
-       "Name": "You have created 4 weighted resource record sets with weights 1, 2, 3 and 4. the 3rd record set is selected by Route53:", 
+        "Id":55, 
+       "Name": "Which of the following conditions correlate with the following information: High pH, High HCO3, High BE, Neutral pCO2:", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "1/7th of the  time", "IsAnswer": false},
-            { "Id": 1056, "QuestionId": 1010, "Name": "3/10th of the time", "IsAnswer": true},
-            { "Id": 1057, "QuestionId": 1010, "Name": "3/7th of the time", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "1/4th of the time", "IsAnswer": false}]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Respiratory alkalosis", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Respiratory acidosis", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Metabolic acidosis", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "Metabolic alkalosis", "IsAnswer": true}]
 
     },
      {
         "Id":56,
-       "Name": "You have created a Route 53 latency record set from your domain to a machine in Hong Kong and a similar record to a machine in Seattle. When a user located in Beijing visits your domain he will be routed to:", 
+       "Name": "Which of the following conditions correlate with the following information: High pH, Neutral HCO3, Neutral BE, Low pCO2:", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Hong Kong", "IsAnswer": true},
-            { "Id": 1056, "QuestionId": 1010, "Name": "Seattle", "IsAnswer": false},
-            { "Id": 1057, "QuestionId": 1010, "Name": "Depends on the load on each machine", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "Both, because 2 requests are made, 1 to each machine", "IsAnswer": false}]
+                    { "Id": 1055, "QuestionId": 1010, "Name": "Respiratory alkalosis", "IsAnswer": true},
+                    { "Id": 1056, "QuestionId": 1010, "Name": "Respiratory acidosis", "IsAnswer": false},
+                    { "Id": 1057, "QuestionId": 1010, "Name": "Metabolic acidosis", "IsAnswer": false},
+                    { "Id": 1058, "QuestionId": 1010, "Name": "Metabolic alkalosis", "IsAnswer": false}]
+
 
     },
      {
-        "Id":57,
-       "Name": "Which of the following can be used as an origin server in CloudFront?(Choose 3)", 
+        "Id": 57,
+       "Name": "Which of the following conditions correlate with the following information: Low pH, Low HCO3, Low BE, Neutral pCO2:", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "A webserver running on EC2", "IsAnswer": true},
-            { "Id": 1056, "QuestionId": 1010, "Name": "A webserver running in your own datacenter", "IsAnswer": true},
-            { "Id": 1057, "QuestionId": 1010, "Name": "A RDS instance", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "An Amazon S3 bucket", "IsAnswer": true}]
+                    { "Id": 1055, "QuestionId": 1010, "Name": "Respiratory alkalosis", "IsAnswer": false},
+                    { "Id": 1056, "QuestionId": 1010, "Name": "Respiratory acidosis", "IsAnswer": false},
+                    { "Id": 1057, "QuestionId": 1010, "Name": "Metabolic acidosis", "IsAnswer": true},
+                    { "Id": 1058, "QuestionId": 1010, "Name": "Metabolic alkalosis", "IsAnswer": false}]
 
     },
      {
         "Id": 58,
-       "Name": "In CloudFront what happens when content is NOT present at an Edge location and a request is made to it?", 
+       "Name": "Which of the following information corresponds with a negative TB test?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "An Error 404 not found is returned", "IsAnswer": false},
-            { "Id": 1056, "QuestionId": 1010, "Name": "CloudFront delivers the content directly from the origin server and stores it in the cache of the edge location", "IsAnswer": true},
-            { "Id": 1057, "QuestionId": 1010, "Name": "The request is kept on hold till content is delivered to the edge location", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "The request is routed to the next closest edge location", "IsAnswer": false}]
+            { "Id": 1055, "QuestionId": 1010, "Name": "0-4 mm induration at 48 hours", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "0-5 mm induration at 48 hours", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "0-6 mm induration at 48 hours", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "0-7 mm induration at 48 hours", "IsAnswer": false}]
 
     },
      {
         "Id": 59,
-       "Name": "In CloudFront what happens when content is NOT present at an Edge location and a request is made to it?", 
+       "Name": "Which of the following is the most common type of lung cancer?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "An Error 404 not found is returned", "IsAnswer": false},
-            { "Id": 1056, "QuestionId": 1010, "Name": "CloudFront delivers the content directly from the origin server and stores it in the cache of the edge location", "IsAnswer": true},
-            { "Id": 1057, "QuestionId": 1010, "Name": "The request is kept on hold till content is delivered to the edge location", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "The request is routed to the next closest edge location", "IsAnswer": false}]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Large cell ", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Adenocarcinoma ", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Oat cell ", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "Squamous cell", "IsAnswer": true}]
 
     },
      {
         "Id": 60,
-       "Name": "Which of the following is true with respect to serving private content through CloudFront? (More than 1 correct answer)", 
+       "Name": "What cell type secrets surfactant?", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Signed URLs can be created to access objects from CloudFront edge locations", "IsAnswer": true},
-            { "Id": 1056, "QuestionId": 1010, "Name": "Direct access to S3 URLs can be removed therefore allowing access only through CloudFront URLs", "IsAnswer": true},
-            { "Id": 1057, "QuestionId": 1010, "Name": "Mark the S3 bucket private and allow access to CloudFront by means of Roles", "IsAnswer": false},
-            { "Id": 1058, "QuestionId": 1010, "Name": "Mark the S3 bucket private and and create an Origin Access Identity to access the objects", "IsAnswer": true}]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Plasma cell", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Type I alveolar cell ", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Type II alveolar cell ", "IsAnswer": true},
+            { "Id": 1058, "QuestionId": 1010, "Name": "Type III alveolar cell", "IsAnswer": false}]
 
     },
      {
         "Id": 61,
-       "Name": "You have written a CloudFormation template that creates 1 elastic load balancer fronting 2 EC2 instances. Which section of the template should you edit so that the DNS of the load balancer is returned upon creation of the stack.", 
+       "Name": "Which of the following pulmonary term correlates with the definition: noted obstruction of the trachea or larynx.", 
         "Options": [
-            { "Id": 1055, "QuestionId": 1010, "Name": "Resources", "IsAnswer": false},
-            { "Id": 1056, "QuestionId": 1010, "Name": "Parameters", "IsAnswer": false},
-            { "Id": 1057, "QuestionId": 1010, "Name": "Outputs", "IsAnswer": true},
-            { "Id": 1058, "QuestionId": 1010, "Name": "Mappings", "IsAnswer": false}]
+            { "Id": 1055, "QuestionId": 1010, "Name": "Rhonchi ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Stridor ", "IsAnswer": true},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Wheezes ", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "Vesicular", "IsAnswer": false}]
 
-    }
+    },
+     {
+        "Id": 62,
+       "Name": "Normal values for pCO2 are considered:", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "20-40 mm Hg", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "25-30 mm Hg ", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "30-40 mm Hg ", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "35-45 mm Hg", "IsAnswer": true}]
+
+    },
+     {
+        "Id": 63,
+       "Name": "Normal values for HCO3 are considered:", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "15-30 mEq/L", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "20-35 mEq/L ", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "22-26 mEq/L ", "IsAnswer": true},
+            { "Id": 1058, "QuestionId": 1010, "Name": "24-29 mEq/L", "IsAnswer": false}]
+
+    },
+     {
+        "Id": 64,
+       "Name": "Which of the following hormones causes increased atrial pressure and decreases sodium reabsorption in the kidneys?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Atrial natriuretic peptide", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "PTH", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Aldosterone ", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "Vasopressin", "IsAnswer": false}]
+
+    },
+     {
+        "Id": 65,
+       "Name": "Angiotensin I is changed by which of the following into Angiotensin II?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "ACE ", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "AVT ", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Pepsin  ", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "Adenosine", "IsAnswer": false}]
+
+    },
+     {
+        "Id": 66,
+       "Name": "Which of the following is not a cause of peripheral edema?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Increased capillary permeability  ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Reduced levels of plasma proteins  ", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Heart failure   ", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "Decreased capillary output", "IsAnswer": true}]
+
+    },
+     {
+        "Id": 67,
+       "Name": "Which of the following during an electrocardiogram is associated with hypokalemia?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "QRS complex ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "U wave ", "IsAnswer": true},
+            { "Id": 1057, "QuestionId": 1010, "Name": "PR segment ", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "ST segment", "IsAnswer": false}]
+
+    },
+     {
+        "Id": 68,
+       "Name": "Which of the following is not generally associated with a 2nd degree (Mobitz Type 1) AV block?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Usually asymptomatic ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Nonsequential (P wave then QRS complex) ", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Increased PR segment/interval ", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "70% Fatal", "IsAnswer": true}]
+
+    },
+     {
+        "Id": 69,
+       "Name": "An S3 heart sound is often associated with?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "CHF", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "COPD", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Atrial fib.", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "Ventricular fib", "IsAnswer": false}]
+
+    },
+     {
+        "Id": 70,
+       "Name": "Mean arterial pressure is the product of:", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "TPR x SV", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "TPR x CO", "IsAnswer": true},
+            { "Id": 1057, "QuestionId": 1010, "Name": "CO/SV", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "SV/EDV", "IsAnswer": false}]
+
+    },
+     {
+        "Id": 71,
+       "Name": "During phase 3 of the myocardial action potential which ion is moving the most?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "K+", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Ca+ ", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "Na+ ", "IsAnswer": false},
+            { "Id": 1058, "QuestionId": 1010, "Name": "Ca2+", "IsAnswer": false}]
+
+    },
+     {
+        "Id": 72,
+       "Name": "An ejection fraction can be calculated as:", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "SV/TPR ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "CO/TPR ", "IsAnswer": false},
+            { "Id": 1057, "QuestionId": 1010, "Name": "SV/EDV ", "IsAnswer": true},
+            { "Id": 1058, "QuestionId": 1010, "Name": "CO/EDV", "IsAnswer": false}]
+
+    },
+     {
+        "Id": 73,
+       "Name": "Oligodendrocytes are located in the _____.", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "PNS", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "CNS", "IsAnswer": true} ]
+
+    },
+     {
+        "Id": 74,
+       "Name": "Schwann cells are located in the _____.", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "PNS", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "CNS", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 75,
+       "Name": "Which of the following types of cells is the most common in the CNS?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Astrocytes ", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Oligocytes ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Neurocytes  ", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Celiac cells ", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 76,
+       "Name": "Which of the following is a regulatory protein in the cytoplasm that helps the processes at the synapse?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Calmodulin  ", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Protein kinase  ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Ligand   ", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Gap protein", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 77,
+       "Name": "Myasthenia gravis is due to ____ receptors being blocked and destroyed by antibodies.", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Epinephrine", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Nicotinic", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Acetylcholine", "IsAnswer": true} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Transient", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 78,
+       "Name": "The primary effect of cocaine on the nervous system is that cocaine blocks the re-uptake of ____.", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Monoamines", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Transamines", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Catecholamine", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Monoamine oxidase", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 79,
+       "Name": "Which of the following amino acids can function as a neurotransmitter in the CNS?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Leucine", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Glutamic acid", "IsAnswer": true} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Lysine", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Valine", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 80,
+       "Name": "Huntington's chorea has been linked with a deficiency in the amino acid ______.", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Lysine", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "GABA", "IsAnswer": true} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Valine", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Tyrosine", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 81,
+       "Name": "Which of the following is not considered a monoamine?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Epinephrine", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Norepinephrine", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Dopamine", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Adenosine", "IsAnswer": true} ]
+
+    },
+     {  
+        "Id": 82,
+       "Name": "Which of the following is not directly associated with the lymphatic pathway?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Lymphatic trunk", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Collecting duct ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Subclavian vein", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Carotid arteries", "IsAnswer": true} ]
+
+    },
+     {
+        "Id": 83,
+       "Name": "The thymus is responsible for secreting _____ from epithelial cells.", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Thymosin ", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Growth hormone", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Macrophages", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Plasma cells", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 84,
+       "Name": "Which of the following types of cytokines is responsible for the growth and maturation of B cells?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Interleukin-1  ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Interleukin-2 ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Interleukin-4 ", "IsAnswer": true} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Interleukin-7", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 85,
+       "Name": "Which of the following types of immunoglobulins is the most responsible for promoting allergic reactions?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "IgA ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "IgM ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "IgD ", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "IgE", "IsAnswer": true} ]
+
+    },
+     {
+        "Id": 86,
+       "Name": "Which of the following types of immunoglobulins is located on the surface of most B-lymphocytes?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "IgA ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "IgM ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "IgD ", "IsAnswer": true} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "IgE", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 87,
+       "Name": "Which of the following types of immunoglobulins does not cross the barrier between mother and infant in the womb?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "IgA ", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "IgM ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "IgD ", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "IgE", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 88,
+       "Name": "Which of the following is not an autoimmune disease?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Graves disease ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Myasthenia gravis", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Insulin-dependent diabetes mellitus ", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Alzheimer's disease", "IsAnswer": true} ]
+
+    },
+     {
+        "Id": 89,
+       "Name": "T-cell activation requires a/an _______ cell.", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Activation", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Accessory", "IsAnswer": true} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Plasma", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Helper", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 90,
+       "Name": "The thymus is located with the _______.", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Mediastinum", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Peristinum", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Epistinum", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Endostinum", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 91,
+       "Name": "Which of the following is not a specific element of duodenal ulcers?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Primarily affects males ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Occasional malignancy ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Can lead to weight gain", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Affects people over 65", "IsAnswer": true} ]
+
+    },
+     {
+        "Id": 92,
+       "Name": "Which of the following is not a specific element of Hepatitis C?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Vaccine available ", "IsAnswer": true},
+            { "Id": 1056, "QuestionId": 1010, "Name": "May be transmitted with sexual contact ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Inflammation of the liver", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Lifetime carrier", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 93,
+       "Name": "Which of the following Vitamins is not stored in the Liver?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Vitamin A ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Vitamin B ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Vitamin C ", "IsAnswer": true} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Vitamin D", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 94,
+       "Name": "Which of the following is not a contributor to a condition of ascites?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Elevated levels of aldosterone ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Hypertension", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Low levels of albumin ", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": " Elevated levels of angiotension I", "IsAnswer": true} ]
+
+    },
+     {
+        "Id": 95,
+       "Name": "Which of the following drugs is a histamine blocker and reduces levels of gastric acid?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Omeprazole (Prilosec)", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Metoclopramide (Reglan) ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Cimetidine (Tagamet) ", "IsAnswer": true} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Magnesium Hydroxide (Maalox)", "IsAnswer": false} ]
+
+    },
+     {
+        "Id": 96,
+       "Name": "Which of the following drugs is an antacid?", 
+        "Options": [
+            { "Id": 1055, "QuestionId": 1010, "Name": "Omeprazole (Prilosec) ", "IsAnswer": false},
+            { "Id": 1056, "QuestionId": 1010, "Name": "Metoclopramide (Reglan) ", "IsAnswer": false} ,
+            { "Id": 1057, "QuestionId": 1010, "Name": "Cimetidine (Tagamet) ", "IsAnswer": false} ,
+            { "Id": 1058, "QuestionId": 1010, "Name": "Magnesium Hydroxide (Maalox)", "IsAnswer": true} ]
+
+    },
+    {
+       "Id": 97,
+      "Name": "Which of the following drugs is a dopamine antagonist?", 
+       "Options": [
+           { "Id": 1055, "QuestionId": 1010, "Name": "Omeprazole (Prilosec) ", "IsAnswer": false},
+           { "Id": 1056, "QuestionId": 1010, "Name": "Metoclopramide (Reglan) ", "IsAnswer": true} ,
+           { "Id": 1057, "QuestionId": 1010, "Name": "Cimetidine (Tagamet) ", "IsAnswer": false} ,
+           { "Id": 1058, "QuestionId": 1010, "Name": "Magnesium Hydroxide (Maalox)", "IsAnswer": false} ]
+
+   },
+    {
+       "Id": 98,
+      "Name": "Another name for the Whipple procedure is a ________.", 
+       "Options": [
+           { "Id": 1055, "QuestionId": 1010, "Name": "Cholangiopancreatography", "IsAnswer": false},
+           { "Id": 1056, "QuestionId": 1010, "Name": "Pancreatoduodenectomy", "IsAnswer": true} ,
+           { "Id": 1057, "QuestionId": 1010, "Name": "Cholangiogram", "IsAnswer": false} ,
+           { "Id": 1058, "QuestionId": 1010, "Name": "Cholecystogram", "IsAnswer": false} ]
+
+   },
+    {
+       "Id": 99,
+      "Name": "Which of the following microorganisms has been linked to Parotitis?", 
+       "Options": [
+           { "Id": 1055, "QuestionId": 1010, "Name": "Staphylococcus aureus", "IsAnswer": true},
+           { "Id": 1056, "QuestionId": 1010, "Name": "Schistosoma ", "IsAnswer": false} ,
+           { "Id": 1057, "QuestionId": 1010, "Name": "Wucheria bancrofti", "IsAnswer": false} ,
+           { "Id": 1058, "QuestionId": 1010, "Name": "Trypanosoma cruzi", "IsAnswer": false} ]
+
+   },
+    {
+       "Id": 100,
+      "Name": "Which of the following is a longitudinal incision through eschar and down to subcutaneous tissue?", 
+       "Options": [
+           { "Id": 1055, "QuestionId": 1010, "Name": "Escharotomy", "IsAnswer": true},
+           { "Id": 1056, "QuestionId": 1010, "Name": "Dehiscence", "IsAnswer": false} ,
+           { "Id": 1057, "QuestionId": 1010, "Name": "Transection", "IsAnswer": false} ,
+           { "Id": 1058, "QuestionId": 1010, "Name": "Escharotic's procedure", "IsAnswer": false} ]
+
+   },
+    {
+       "Id": 101,
+      "Name": "Which of the following types of wounds match the criteria: plantar aspect of foot, met heads, heel?", 
+       "Options": [
+           { "Id": 1055, "QuestionId": 1010, "Name": "Arterial", "IsAnswer": false},
+           { "Id": 1056, "QuestionId": 1010, "Name": "Plantar", "IsAnswer": false} ,
+           { "Id": 1057, "QuestionId": 1010, "Name": "Venous", "IsAnswer": false} ,
+           { "Id": 1058, "QuestionId": 1010, "Name": "Diabetic", "IsAnswer": true} ]
+
+   },
+    {
+       "Id": 102,
+      "Name": "Which of the following terms matches: water and electrolytes (clear)?", 
+       "Options": [
+           { "Id": 1055, "QuestionId": 1010, "Name": "Exudate", "IsAnswer": false},
+           { "Id": 1056, "QuestionId": 1010, "Name": "Transudate", "IsAnswer": true} ,
+           { "Id": 1057, "QuestionId": 1010, "Name": "Serosanguineous", "IsAnswer": false} ,
+           { "Id": 1058, "QuestionId": 1010, "Name": "Induration", "IsAnswer": false} ]
+
+   },
+    {
+       "Id": 103,
+      "Name": "Which of the following edema assessment levels corresponds with: Depression resolving in 10-15 sec?", 
+       "Options": [
+           { "Id": 1055, "QuestionId": 1010, "Name": "+1", "IsAnswer": false},
+           { "Id": 1056, "QuestionId": 1010, "Name": "+2", "IsAnswer": true} ,
+           { "Id": 1057, "QuestionId": 1010, "Name": "+3", "IsAnswer": false} ,
+           { "Id": 1058, "QuestionId": 1010, "Name": "+4", "IsAnswer": false} ]
+
+   },
+   {
+      "Id": 104,
+     "Name": "Which of the following terms matches the statement: to increase the fibrous element; to make hard as in the presence of cellulites?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "Induration", "IsAnswer": true},
+          { "Id": 1056, "QuestionId": 1010, "Name": "Necrosis", "IsAnswer": false} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "Eschar", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "Maceration", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 105,
+     "Name": "Following the rule of nines. What percent would a third degree burn to the entire arm and back cover?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "28%", "IsAnswer": false},
+          { "Id": 1056, "QuestionId": 1010, "Name": "27%", "IsAnswer": true} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "20%", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "18%", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 106,
+     "Name": "Which of the following matches the defintion: A full thickness skin loss involving damage or necrosis of subcutaneous tissue that may extend down to but not through underlying fascia, infection and/or necrosis may be present?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "Stage I wound", "IsAnswer": false},
+          { "Id": 1056, "QuestionId": 1010, "Name": "Stage II wound", "IsAnswer": false} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "Stage III wound", "IsAnswer": true} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "Stage IV wound", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 107,
+     "Name": "Which of the following types of wound is indicated by the definition: relatively painless, decreased with elevation?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "Arterial", "IsAnswer": false},
+          { "Id": 1056, "QuestionId": 1010, "Name": "Plantar", "IsAnswer": true} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "Venous", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "Diabetic", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 108,
+     "Name": "Which of the following matches the definition: The loss of circulatory fluids into interstitial spaces?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "Hypovolemia", "IsAnswer": true},
+          { "Id": 1056, "QuestionId": 1010, "Name": "Necrosis", "IsAnswer": false} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "Eschar", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "Maceration", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 109,
+     "Name": "Which of the following is not one of the key steps in the grief process?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "Denial", "IsAnswer": false},
+          { "Id": 1056, "QuestionId": 1010, "Name": "Anger", "IsAnswer": false} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "Bargaining", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "Rejection", "IsAnswer": true} ]
+
+  },
+   {
+      "Id": 110,
+     "Name": "Which of the following matches the definition: covering up a weakness by stressing a desirable or stronger trait?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "Compensation", "IsAnswer": true},
+          { "Id": 1056, "QuestionId": 1010, "Name": "Projection", "IsAnswer": false} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "Rationalization", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "Dysphoria", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 111,
+     "Name": "Which of the following waveforms is most commonly found with light sleepers?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "Theta", "IsAnswer": true},
+          { "Id": 1056, "QuestionId": 1010, "Name": "Alpha", "IsAnswer": false} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "Beta", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "Zeta", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 112,
+     "Name": "Which of the following months matches with an infant first having the ability to sit-up independently?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "4 months", "IsAnswer": false},
+          { "Id": 1056, "QuestionId": 1010, "Name": "6 months ", "IsAnswer": true} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "8 months ", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "10 months ", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 113,
+     "Name": "Object permanence for toddlers develops in this age range?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "5-10 months", "IsAnswer": true},
+          { "Id": 1056, "QuestionId": 1010, "Name": "10-14 months", "IsAnswer": false} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "12-24 months", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "15-24 months", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 114,
+     "Name": "Which of the following matches the definition: attributing of our own unwanted trait onto another person?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "Compensation", "IsAnswer": false},
+          { "Id": 1056, "QuestionId": 1010, "Name": "Projection", "IsAnswer": true} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "Rationalization", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "Dysphoria", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 115,
+     "Name": "Which of the following matches the definition: the justification of behaviors using reason other than the real reason?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "Compensation", "IsAnswer": false},
+          { "Id": 1056, "QuestionId": 1010, "Name": "Projection", "IsAnswer": false} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "Rationalization", "IsAnswer": true} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "Dysphoria", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 116,
+     "Name": "Which of the following matches the definition: response to severe emotion stress resulting in involuntary disturbance of physical functions?", 
+      "Options": [
+          { "Id": 1055, "QuestionId": 1010, "Name": "Conversion disorder ", "IsAnswer": true},
+          { "Id": 1056, "QuestionId": 1010, "Name": "Depressive reaction", "IsAnswer": false} ,
+          { "Id": 1057, "QuestionId": 1010, "Name": "Bipolar disorder", "IsAnswer": false} ,
+          { "Id": 1058, "QuestionId": 1010, "Name": "Alzheimer's disease", "IsAnswer": false} ]
+
+  },
+   {
+      "Id": 117,
+     "Name": "Which of the following waveforms is most commonly found when you are awake?", 
+      "Options": [
+                  { "Id": 1055, "QuestionId": 1010, "Name": "Theta", "IsAnswer": false},
+                  { "Id": 1056, "QuestionId": 1010, "Name": "Alpha", "IsAnswer": false} ,
+                  { "Id": 1057, "QuestionId": 1010, "Name": "Beta", "IsAnswer": true} ,
+                  { "Id": 1058, "QuestionId": 1010, "Name": "Zeta", "IsAnswer": false} ]
+  },
+   {
+      "Id": 118,
+     "Name": "Which of the following is the antidote for the toxin Benzodiazepines?", 
+      "Options": [
+                  { "Id": 1055, "QuestionId": 1010, "Name": "Flumazenil", "IsAnswer": true},
+                  { "Id": 1056, "QuestionId": 1010, "Name": "Methylene blue", "IsAnswer": false} ,
+                  { "Id": 1057, "QuestionId": 1010, "Name": "Deferoxamine", "IsAnswer": false} ,
+                  { "Id": 1058, "QuestionId": 1010, "Name": "Alkalinize urine", "IsAnswer": false} ]
+  },
+   {
+      "Id": 119,
+     "Name": "Which of the following is the antidote for the toxin Lead?", 
+      "Options": [
+                  { "Id": 1055, "QuestionId": 1010, "Name": "Naloxone", "IsAnswer": false},
+                  { "Id": 1056, "QuestionId": 1010, "Name": "Nitrite", "IsAnswer": false} ,
+                  { "Id": 1057, "QuestionId": 1010, "Name": "CaEDTA", "IsAnswer": true} ,
+                  { "Id": 1058, "QuestionId": 1010, "Name": "Dialysis", "IsAnswer": false} ]
+  },
+   {
+      "Id": 120,
+     "Name": "Which of the following is the primary site of activity for the drug Warfarin?", 
+      "Options": [
+                  { "Id": 1055, "QuestionId": 1010, "Name": "Kidney", "IsAnswer": false},
+                  { "Id": 1056, "QuestionId": 1010, "Name": "Liver", "IsAnswer": true} ,
+                  { "Id": 1057, "QuestionId": 1010, "Name": "Blood ", "IsAnswer": false} ,
+                  { "Id": 1058, "QuestionId": 1010, "Name": "Heart", "IsAnswer": false} ]
+  },
+   {
+      "Id": 121,
+     "Name": "Lansoprazole is not used in which of the following cases?", 
+      "Options": [
+                  { "Id": 1055, "QuestionId": 1010, "Name": "Gastritis", "IsAnswer": false},
+                  { "Id": 1056, "QuestionId": 1010, "Name": "Peptic Ulcers", "IsAnswer": false} ,
+                  { "Id": 1057, "QuestionId": 1010, "Name": "Zollinger-Ellison syndrome ", "IsAnswer": false} ,
+                  { "Id": 1058, "QuestionId": 1010, "Name": "Thalamus hypertrophy", "IsAnswer": true} ]
+  },
+   {
+      "Id": 122,
+     "Name": "Which of the following drugs is associated with the reaction of Cinchonism?", 
+      "Options": [
+                  { "Id": 1055, "QuestionId": 1010, "Name": "Valproic acid", "IsAnswer": false},
+                  { "Id": 1056, "QuestionId": 1010, "Name": "Quinidine", "IsAnswer": true} ,
+                  { "Id": 1057, "QuestionId": 1010, "Name": "Isoniazid", "IsAnswer": false} ,
+                  { "Id": 1058, "QuestionId": 1010, "Name": "Ethosuximide", "IsAnswer": false} ]
+  },
+   {
+      "Id": 123,
+     "Name": "Which of the following drugs is associated with the reaction of hepatitis?", 
+      "Options": [
+                  { "Id": 1055, "QuestionId": 1010, "Name": "Valproic acid", "IsAnswer": false},
+                  { "Id": 1056, "QuestionId": 1010, "Name": "Quinidine", "IsAnswer": false} ,
+                  { "Id": 1057, "QuestionId": 1010, "Name": "Isoniazid", "IsAnswer": true} ,
+                  { "Id": 1058, "QuestionId": 1010, "Name": "Ethosuximide", "IsAnswer": false} ]
+  },
+   {
+      "Id": 124,
+     "Name": "Which of the following drugs is associated with the reaction of Stevens-Johnson syndrome?", 
+      "Options": [
+                  { "Id": 1055, "QuestionId": 1010, "Name": "Valproic acid", "IsAnswer": false},
+                  { "Id": 1056, "QuestionId": 1010, "Name": "Quinidine", "IsAnswer": false} ,
+                  { "Id": 1057, "QuestionId": 1010, "Name": "Isoniazid", "IsAnswer": false} ,
+                  { "Id": 1058, "QuestionId": 1010, "Name": "Ethosuximide", "IsAnswer": true} ]
+  },
+   {
+      "Id": 125,
+     "Name": "Which of the following drugs is associated with the reaction of Tendon dyfunction?", 
+      "Options": [
+                  { "Id": 1055, "QuestionId": 1010, "Name": "Digitalis", "IsAnswer": false},
+                  { "Id": 1056, "QuestionId": 1010, "Name": "Niacin", "IsAnswer": false} ,
+                  { "Id": 1057, "QuestionId": 1010, "Name": "Tetracycline", "IsAnswer": false} ,
+                  { "Id": 1058, "QuestionId": 1010, "Name": "Fluoroquinolones", "IsAnswer": true} ]
+  },
+   {
+      "Id": 126,
+     "Name": "A drug ending in the suffix (pril) is considered a ______.", 
+      "Options": [
+                  { "Id": 1055, "QuestionId": 1010, "Name": "H", "IsAnswer": false},
+                  { "Id": 1056, "QuestionId": 1010, "Name": "ACE inhibitor", "IsAnswer": true} ,
+                  { "Id": 1057, "QuestionId": 1010, "Name": "Antifungal", "IsAnswer": false} ,
+                  { "Id": 1058, "QuestionId": 1010, "Name": "Beta agonist", "IsAnswer": false} ]
+  }
     ]
 }
 

@@ -124,19 +124,14 @@ angular.module('starter').service('helperService', function() {
 	} ];
 
 	var mockExams = [ {
-		title : 'Practice Exam 1',
+		title : 'Practice Exam ',
 		id : 100,
 		url : 'data/img/exam.jpg'
 	}, {
-		title : 'Practice Exam 2',
-		id : 200,
-		url : 'data/img/exam.jpg'
-	}, {
 		title : 'Certification',
-		id : 300,
+		id : 200,
 		url : 'data/img/certified.png'
 	}
-
 	];
 
 	var patientPopulation = [ {

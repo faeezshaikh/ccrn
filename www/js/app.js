@@ -24,29 +24,29 @@ angular.module('starter', ['ionic', 'starter.controllers','timer','LocalStorageM
   });
 })
 .constant('topicMap', {
-    1 : 'data/urinary.js',  //  done started with 1-10 ***
-    2 : 'data/biochemistry.js',  //answers not provided ==============
-    3 : 'data/diabetes.js',  //  done started with 1-10 ***
-    4 : 'data/neuroanatomy.js', //  started with 11-20
-    5 : 'data/circulation.js', //  done started with 11-20
-    6 : 'data/pathology.js', //  done started with 11-20
-    7 : 'data/syndromes.js', //  done started with 11-20
-    8 : 'data/respiration.js', //  done started with 11-20
-    9 : 'data/pharmacology1.js', //  done started with 1-10 ***
-    10 : 'data/pharmacology2.js', //  done started with 11-20
-    11 : 'data/physiology.js', //  done started with 11-20
-    12 : 'data/nervoussystem.js', //  done started with 11-20
-    13 : 'data/lymphaticsystem.js', //  done started with 11-20
-    14 : 'data/gastro.js', //  done started with 11-20
-    15 : 'data/integumentary.js', //  done started with 11-20
-    16 : 'data/behavior.js',  //  done started with 11-20
+    1 : 'data/urinary.js',  //  done started with 1-10, 11 in prctc *** 12-20 in exam
+    2 : 'data/biochemistry.js',  //answers not provided 1-11 ==============
+    3 : 'data/diabetes.js',  //  done started with 1-10, 11 in prctc *** 12-20 in exam
+    4 : 'data/neuroanatomy.js', //  started with 10-20 , 1-9 in exam, 10 in practice
+    5 : 'data/circulation.js', //  done started with 10-20 ,1-9 in exam, 10 in practice
+    6 : 'data/pathology.js', //  done started with 10-20 ,1-9 in exam, 10 in practice
+    7 : 'data/syndromes.js', //  done started with 11-20 ,1-9 in exam, 10 in practice
+    8 : 'data/respiration.js', //  done started with 11-20 , 1-9 in exam, 10 in practice
+    9 : 'data/pharmacology1.js', //  done started with 1-11 ***
+    10 : 'data/pharmacology2.js', //  done started with 11-20 , 1-9 in exam, 10 in practice
+    11 : 'data/physiology.js', //  done started with 11-20 , 1-9 in exam, 10 in practice
+    12 : 'data/nervoussystem.js', //  done started with 11-20 , 1-9 in exam, 10 in practice
+    13 : 'data/lymphaticsystem.js', //  done started with 11-20, 1-9 in exam, 10 in practice
+    14 : 'data/gastro.js', //  done started with 11-20, 1-9 in exam, 10 in practice
+    15 : 'data/integumentary.js', //  done started with 11-20, 1-9 in exam, 10 in practice
+    16 : 'data/behavior.js',  //  done started with 11-20, 1-9 in exam, 10 in practice
     17 : 'data/adult.js',	// all 5 from website. 5 from sample, 3 remaining from sample
     18 : 'data/pediatric.js', // all 5 from website. frist 5 from sample, 3 remaining from sample
     19 : 'data/neonatal.js',  // all 5 from website. frist 5 from sample, 3 remaining from sample
     
-    100 : 'data/practice1.js',
-    200 : 'data/practice2.js',
-    300 : 'data/exam.js'
+    100 : 'data/practice.js', // 20 - 1 each from sample 1 from remaining = 19 **********
+    200 : 'data/exam.js', // 9 x 16 = 144 + 2 x 3 = 6 . total 150
+    
 })
 .config(function($stateProvider, $urlRouterProvider) {
   $stateProvider
